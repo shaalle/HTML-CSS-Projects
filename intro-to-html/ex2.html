@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .pagination {
+            position: relative;
+            background-color: rgb(123, 114, 232);
+            padding: 3rem 6rem;
+
+        }
+
+        .btn {
+            padding: 10px 12px;
+            margin-right: 8px;
+        }
+
+        a {
+            padding: 4px;
+        }
+
+        .stretch {
+            position: absolute;
+            margin: 0 80px;
+            padding: 10px 16px;
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            transition: padding 0.55s;
+
+        }
+
+        .stretch:hover {
+            padding: 13px 40px;
+
+        }
+
+        .d-click {
+            position: absolute;
+            margin: 10px 270px;
+            padding: 9px 28px;
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 4px 4px 10px rgba(139, 133, 133, 1);
+            transition: box-shadow 0.55s;
+        }
+
+        .d-click:hover {
+            box-shadow: none;
+            padding: 12px 30px;
+        }
+
+        .all {
+            
+            margin-top: 60px;
+            background-color: rgb(123, 219, 411);
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .stretch-btn {
+            margin: 0 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 18px;
+            padding: 8px 15px;
+            cursor: pointer;
+            transition: padding 0.15s, margin 0.15s;
+        }
+
+        .stretch-btn:hover {
+            padding: 8px 25px;
+            margin: 0;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="pagination">
+        <button class="btn">Back</button>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <button class="btn">Next</button>
+        <button class="stretch">Stretch</button>
+    </div>
+    <button class="d-click">Shadow</button>
+    <div class="all">
+        <button class="stretch-btn">One</button>
+        <button class="stretch-btn">Two</button>
+        <button class="stretch-btn">Three</button>
+    </div>
+</body>
+
+</html>

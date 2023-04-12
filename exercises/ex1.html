@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7 Exercises</title>
+    <style>
+        .img1 {
+        width: 300px;
+        border-radius: 20px;
+    }
+    .img2 {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .img3 {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    input{
+        border: 2px solid rgb(228, 223, 216);
+    }
+
+    input:focus {
+        outline: none;
+        border-color: rgb(202, 124, 14);
+    }
+
+    .input1,.input3 {
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .input2 {
+        width: 30%;
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        box-shadow: 3px 3px 9px rgba(167, 161, 161, 0.7);
+        border-radius: 30px;
+    }
+    
+    .sing-up {
+        margin-top: 18px;
+       font-family: sans-serif;
+    }
+
+    label {
+        font-size: 20px;
+        color: rgb(50, 47, 47);
+    }
+    .input3 {
+        margin-top: 8px;
+        padding: 5px 80px;
+        border-radius: 5px;
+        border-color: rgb(50, 47, 47);;
+    }
+    .btn1 {
+        font-size: 20px;
+        padding: 15px 145px;
+        background-color: #0c53ad;
+        color: #fff;
+        border: none;
+        border-radius: 500px;
+        cursor: pointer;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="kits">
+    <img class="img1" src="../images/cat.jpg" alt="">
+    <img class="img2" src="../images/cat.jpg" alt="">
+    <img class="img3" src="../images/cat.jpg" alt="">
+</div>
+<div class="text-boxes">
+    <input class="input1" type="text" placeholder="Search">
+    <input class="input2" type="text" placeholder="Search Google or type a URL">
+</div>
+<div class="sing-up">
+    <label for="email">Email</label><br/>
+    <input class="input3" type="text" id="email">
+    <p>By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button class="btn1">Agree & Join</button>
+</div>
+</body>
+</html>
